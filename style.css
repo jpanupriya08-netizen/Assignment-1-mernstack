@@ -1,0 +1,298 @@
+/* Global Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-color: #f5f1e8;
+
+    color: #333;
+
+}
+
+
+
+/* Navbar */
+
+.navbar-brand {
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+}
+
+
+
+.nav-link {
+
+    transition: 0.3s;
+
+}
+
+
+
+.nav-link:hover {
+
+    color: #d4af37 !important;
+
+}
+
+
+
+/* Login and Signup Page */
+
+.login-section {
+
+    min-height: 85vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background:
+
+    linear-gradient(
+        rgba(0,0,0,0.55),
+        rgba(0,0,0,0.55)
+    ),
+
+    url("https://images.unsplash.com/photo-1561214115-f2f134cc4912");
+
+    background-size: cover;
+
+    background-position: center;
+
+}
+
+
+
+.login-card {
+
+    width: 400px;
+
+    background: white;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    box-shadow: 
+    0 10px 30px rgba(0,0,0,0.3);
+
+    animation: slideUp 0.8s ease;
+
+}
+
+
+
+.login-card:hover {
+
+    transform: translateY(-8px);
+
+    transition: 0.4s;
+
+}
+
+
+
+/* Buttons */
+
+.btn-primary {
+
+    background-color: #6c4ab6;
+
+    border: none;
+
+}
+
+
+
+.btn-primary:hover {
+
+    background-color: #4b2e83;
+
+}
+
+
+
+
+
+/* Artwork Cards */
+
+
+.card {
+
+    border: none;
+
+    overflow: hidden;
+
+    transition: 0.4s;
+
+}
+
+
+
+.card:hover {
+
+    transform: translateY(-10px);
+
+    box-shadow:
+    0 15px 30px rgba(0,0,0,0.25);
+
+}
+
+
+
+.card img {
+
+    transition: 0.5s;
+
+}
+
+
+
+.card:hover img {
+
+    transform: scale(1.05);
+
+}
+
+
+
+
+
+/* Artwork Detail Pages */
+
+
+.container img {
+
+    transition: 0.4s;
+
+}
+
+
+
+.container img:hover {
+
+    transform: scale(1.03);
+
+}
+
+
+
+
+
+/* Hero Section */
+
+
+section h1 {
+
+    letter-spacing: 1px;
+
+}
+
+
+
+
+
+/* Carousel */
+
+.carousel img {
+
+    border-radius: 10px;
+
+}
+
+
+
+
+
+/* Footer */
+
+
+footer {
+
+    margin-top: 40px;
+
+    font-size: 15px;
+
+}
+
+
+
+
+
+/* Animation */
+
+
+@keyframes slideUp {
+
+
+from {
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+}
+
+
+to {
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+
+
+}
+
+
+
+
+
+
+/* Smooth scrolling */
+
+html {
+
+    scroll-behavior: smooth;
+
+}
+
+
+
+
+
+/* Mobile Responsive */
+
+
+@media(max-width:768px){
+
+
+.login-card {
+
+    width:90%;
+
+}
+
+
+.display-3 {
+
+    font-size:2.5rem;
+
+}
+
+
+}
